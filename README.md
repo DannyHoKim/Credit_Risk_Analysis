@@ -66,3 +66,6 @@ In this analysis, we are applying machine learning to solve a real-world challen
 - Precision High/Low: 0.09/1.00
 - Recall: 92% of high risk applicants are identified as high risk and 94% of low risk applicants are identified as low risk.
 
+## Summary
+
+In this analysis we resampled using 6 different models to see which yeilded the best results for the imbalanced classification problem within this data set. From our results we see that the first four (Naive Random Oversampling, SMOTE, CLuster Centroids Undersampling, and SMOTEENN) resulted in fairly low accuracy scores as well as imbalanced precision and recall scores. The Balanced Random Forest Classifier yielded better results that the prior four with an accuracy score of 79% and a more balanced precision and recall score. However, when choosing the best model for this dataset, the Easy Ensemble AdaBoost Classifer performed the best. It had a 93% accuracy score, a more balanced precision, and was able to predict 92% of high risk applicant and high risk, and 94% of low risk applicants as low risk. 
