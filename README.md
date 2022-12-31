@@ -8,9 +8,9 @@ In this analysis, we are applying machine learning to solve a real-world challen
 
 ### Naive Random Oversampling Results:
 
-![ROS](Resources/ROS.png)
+![ROS](Starter_Code/Resources/ROS.png)
 
-![rosresults](Resources/rosresults.png)
+![rosresults](Starter_Code/Resources/rosresults.png)
 
 - Balanced Accuracy: 63%
 - Precision High/Low: 0.01/1.00
@@ -18,9 +18,9 @@ In this analysis, we are applying machine learning to solve a real-world challen
 
 ### SMOTE Oversampling:
 
-![smote](Resources/smote.png)
+![smote](Starter_Code/Resources/smote.png)
 
-![smoteresults](Resources/smoteresults.png)
+![smoteresults](Starter_Code/Resources/smoteresults.png)
 
 - Balanced Accuracy: 63%
 - Precision High/Low: 0.01/1.00
@@ -28,9 +28,9 @@ In this analysis, we are applying machine learning to solve a real-world challen
 
 ### Cluster Centroids Undersampling:
 
-![undersampling](Resources/undersampling.png)
+![undersampling](Starter_Code/Resources/undersampling.png)
 
-![undersamplingresults](Resources/undersamplingresults.png)
+![undersamplingresults](Starter_Code/Resources/undersamplingresults.png)
 
 - Balanced Accuracy: 63%
 - Precision High/Low: 0.01/1.00
@@ -38,9 +38,9 @@ In this analysis, we are applying machine learning to solve a real-world challen
 
 ### SMOTEENN Combination Sampling:
 
-![combination](Resources/combination.png)
+![combination](Starter_Code/Resources/combination.png)
 
-![combinationresults](Resources/combinationresults.png)
+![combinationresults](Starter_Code/Resources/combinationresults.png)
 
 - Balanced Accuracy: 51%
 - Precision High/Low: 0.01/1.00
@@ -48,9 +48,9 @@ In this analysis, we are applying machine learning to solve a real-world challen
 
 ### Balanced Random Forester Classifer:
 
-![brfc](Resources/brfc.png)
+![brfc](Starter_Code/Resources/brfc.png)
 
-![brfcresults](Resources/brfcresults.png)
+![brfcresults](Starter_Code/Resources/brfcresults.png)
 
 - Balanced Accuracy: 79%
 - Precision High/Low: 0.03/1.00
@@ -58,9 +58,9 @@ In this analysis, we are applying machine learning to solve a real-world challen
 
 ### Easy Ensemble AdaBoost Classifer:
 
-![eeac](Resources/eeac.png)
+![eeac](Starter_Code/Resources/eeac.png)
 
-![eeacresults](Resources/eeacresults.png)
+![eeacresults](Starter_Code/Resources/eeacresults.png)
 
 - Balanced Accuracy: 93%
 - Precision High/Low: 0.09/1.00
